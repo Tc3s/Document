@@ -1,0 +1,689 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "monitor_router_Win2016",
+    "project_id": "2afdbdba-9594-4024-913a-577794958e15",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": false,
+    "show_interface_labels": true,
+    "show_layers": false,
+    "snap_to_grid": false,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [
+            {
+                "drawing_id": "4a7635db-31e1-4e1a-a5df-2d026ccc0678",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"55\" height=\"29\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">Cacti </text></svg>",
+                "x": -440,
+                "y": 106,
+                "z": 2
+            },
+            {
+                "drawing_id": "899bbe50-7a27-4d05-89f4-355bf141a67b",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"95\" height=\"29\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">WIN2016 </text></svg>",
+                "x": -113,
+                "y": 112,
+                "z": 2
+            },
+            {
+                "drawing_id": "88b5b2cd-8bec-4345-b45d-fd8f8fe965cd",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"46\" height=\"29\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.200</text></svg>",
+                "x": -393,
+                "y": 37,
+                "z": 2
+            },
+            {
+                "drawing_id": "5ba45f1d-3214-42d2-b668-17780a2cc6f7",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"51\" height=\"29\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">.100 </text></svg>",
+                "x": -132,
+                "y": 42,
+                "z": 2
+            },
+            {
+                "drawing_id": "757f4c5b-350c-49d3-a386-ea5fb74d6359",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"148\" height=\"29\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">172.24.42.0/24 </text></svg>",
+                "x": -191,
+                "y": -104,
+                "z": 2
+            },
+            {
+                "drawing_id": "2ff0fd74-4d27-46ed-a964-ea03c6a6ab91",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"148\" height=\"50\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">172.24.45.0/24 \n </text></svg>",
+                "x": -66,
+                "y": -218,
+                "z": 2
+            }
+        ],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "3836eb38-22fe-43c9-bbe8-dff70f45d5ac",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/1",
+                            "x": -59,
+                            "y": 32
+                        },
+                        "node_id": "b26ea792-3d94-49f5-a6fe-390371b6ac51",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "VMware Network Adapter VMnet3",
+                            "x": -89,
+                            "y": 103
+                        },
+                        "node_id": "7fad468a-4758-4541-a00a-4a014d62d924",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "79093247-8c63-4e48-bc58-986d51445b62",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/2",
+                            "x": 63,
+                            "y": 32
+                        },
+                        "node_id": "b26ea792-3d94-49f5-a6fe-390371b6ac51",
+                        "port_number": 2
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "VMware Network Adapter VMnet4",
+                            "x": -29,
+                            "y": 103
+                        },
+                        "node_id": "40e473f6-6d10-4543-8ae4-138669aae531",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "155f5ac0-488c-4eb0-838a-4ce193330d21",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": -42,
+                            "y": 39
+                        },
+                        "node_id": "e8dae04a-99b7-4b23-812a-16f4a1c7489a",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": 56,
+                            "y": -8
+                        },
+                        "node_id": "b26ea792-3d94-49f5-a6fe-390371b6ac51",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "78ab18e2-7788-45aa-bb00-b13a2cd7e20c",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 71,
+                            "y": -16
+                        },
+                        "node_id": "e8dae04a-99b7-4b23-812a-16f4a1c7489a",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": -6,
+                            "y": 19
+                        },
+                        "node_id": "3713fcb7-05f6-404a-98b7-5536653d63cd",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "242b9860-4a73-4567-a110-76f2650b26b8",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 72,
+                            "y": 20
+                        },
+                        "node_id": "3713fcb7-05f6-404a-98b7-5536653d63cd",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "VMware Network Adapter VMnet8",
+                            "x": 0,
+                            "y": 37
+                        },
+                        "node_id": "8facdcad-744e-4f32-af8e-d84b4d886d6e",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Cloud1",
+                    "x": 45,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Cloud1",
+                "node_id": "8facdcad-744e-4f32-af8e-d84b4d886d6e",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Ethernet 2",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Local Area Connection",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet2",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet3",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet4",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet5",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "VMware Network Adapter VMnet8",
+                            "name": "VMware Network Adapter VMnet8",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": 421,
+                "y": -191,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Cloud2",
+                    "x": 45,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Cloud2",
+                "node_id": "7fad468a-4758-4541-a00a-4a014d62d924",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Ethernet 2",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Local Area Connection",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet2",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet3",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet4",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet5",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "VMware Network Adapter VMnet3",
+                            "name": "VMware Network Adapter VMnet3",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": -505,
+                "y": 85,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Cloud3",
+                    "x": 45,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Cloud3",
+                "node_id": "40e473f6-6d10-4543-8ae4-138669aae531",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Ethernet 2",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Local Area Connection",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet2",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet3",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet4",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet5",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "VMware Network Adapter VMnet4",
+                            "name": "VMware Network Adapter VMnet4",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": -153,
+                "y": 94,
+                "z": 1
+            },
+            {
+                "compute_id": "vm",
+                "console": 5002,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 48,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "IOU1",
+                    "x": 0,
+                    "y": -24
+                },
+                "locked": false,
+                "name": "IOU1",
+                "node_id": "b26ea792-3d94-49f5-a6fe-390371b6ac51",
+                "node_type": "iou",
+                "port_name_format": "Ethernet{segment0}/{port0}",
+                "port_segment_size": 4,
+                "properties": {
+                    "application_id": 1,
+                    "ethernet_adapters": 4,
+                    "l1_keepalives": false,
+                    "md5sum": "f16db44433beb3e8c828db5ddad1de8a",
+                    "nvram": 16,
+                    "path": "i86bi_linux_l2-advipservicesk9-ms.nov3_2015_high_iron.bin",
+                    "ram": 256,
+                    "serial_adapters": 0,
+                    "usage": "",
+                    "use_default_iou_values": true
+                },
+                "symbol": ":/symbols/multilayer_switch.svg",
+                "template_id": "2592bd86-29de-4b0a-b671-ca51d94a55f4",
+                "width": 51,
+                "x": -243,
+                "y": -46,
+                "z": 1
+            },
+            {
+                "compute_id": "vm",
+                "console": 5000,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R1",
+                    "x": 17,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "R1",
+                "node_id": "e8dae04a-99b7-4b23-812a-16f4a1c7489a",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 1,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60210c60",
+                    "idlesleep": 30,
+                    "image": "c7200-adventerprisek9-mz.124-24.T5.image",
+                    "image_md5sum": "6b89d0d804e1f2bb5b8bda66b5692047",
+                    "mac_addr": "ca01.0de6.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": "PA-2FE-TX",
+                    "slot3": "PA-2FE-TX",
+                    "slot4": "PA-8T",
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "6e259947-e929-4a8f-a14c-67c51ad8fa31",
+                "width": 66,
+                "x": -212,
+                "y": -196,
+                "z": 1
+            },
+            {
+                "compute_id": "vm",
+                "console": 5001,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R2",
+                    "x": 17,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "R2",
+                "node_id": "3713fcb7-05f6-404a-98b7-5536653d63cd",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 2,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x60210c60",
+                    "idlesleep": 30,
+                    "image": "c7200-adventerprisek9-mz.124-24.T5.image",
+                    "image_md5sum": "6b89d0d804e1f2bb5b8bda66b5692047",
+                    "mac_addr": "ca02.0e06.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-FE",
+                    "slot1": "PA-2FE-TX",
+                    "slot2": "PA-2FE-TX",
+                    "slot3": "PA-2FE-TX",
+                    "slot4": "PA-8T",
+                    "slot5": null,
+                    "slot6": null,
+                    "sparsemem": true,
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "6e259947-e929-4a8f-a14c-67c51ad8fa31",
+                "width": 66,
+                "x": 251,
+                "y": -172,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.53",
+    "zoom": 100
+}
