@@ -1,3 +1,0 @@
-# Document
-Lab_Monitor
-
